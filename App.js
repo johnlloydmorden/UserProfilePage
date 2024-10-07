@@ -59,7 +59,7 @@ const App = () => {
           <View style={styles.settingOption}>
             <MaterialCommunityIcons name="grid" size={24} color="orange" />
             <Text style={[styles.settingText, { color: isDarkTheme ? '#FFFFFF' : '#000000' }]}>Personal Information</Text>
-            <Button title=">" color="#808080" onPress={showMedia} />
+            <Button title=">" color="#808080" onPress={showPersonalInfo} />
           </View>
           <View style={styles.settingOption}>
             <MaterialCommunityIcons name="image" size={24} color="blue" />
