@@ -59,12 +59,12 @@ const App = () => {
           <View style={styles.settingOption}>
             <MaterialCommunityIcons name="grid" size={24} color="orange" />
             <Text style={[styles.settingText, { color: isDarkTheme ? '#FFFFFF' : '#000000' }]}>Personal Information</Text>
-            <Button title=">" onPress={showPersonalInfo} />
+            <Button title=">" color="#808080" onPress={showMedia} />
           </View>
           <View style={styles.settingOption}>
             <MaterialCommunityIcons name="image" size={24} color="blue" />
             <Text style={[styles.settingText, { color: isDarkTheme ? '#FFFFFF' : '#000000' }]}>Media and Photos</Text>
-            <Button title=">" onPress={showMedia} />
+            <Button title=">" color="#808080" onPress={showMedia} />
           </View>
           <View style={styles.settingOption}>
             <MaterialCommunityIcons name="bell" size={24} color="purple" />
