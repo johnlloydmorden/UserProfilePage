@@ -18,7 +18,7 @@ const App = () => {
   };
 
   const showMedia = () => {
-    Alert.alert("Media", "Photo upload feature coming soon!");
+    Alert.alert("Media", "Not Available");
   };
 
   const toggleNotifications = () => {
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   editProfileButton: {
-     backgroundColor:'#8A2BE2', // Solid color for simplicity
+     backgroundColor:'#8A2BE2', 
      borderRadius:25,
      paddingVertical:10,
      paddingHorizontal:20,
