@@ -14,7 +14,7 @@ const App = () => {
   };
 
   const showPersonalInfo = () => {
-    Alert.alert("Personal Information", "John Lloyd D. Morden\n21 Years Old\nBirthdate: July 03, 2003\nAddress: Carmen, Cagayan de Oro City");
+    Alert.alert("Personal Information", "Name        :  John Lloyd D. Morden\n Age          :  21 Years Old\n Birthdate  : July 03, 2003\nAddress    : Carmen, Cagayan de Oro City");
   };
 
   const showMedia = () => {
